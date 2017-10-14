@@ -8,6 +8,8 @@ usage
 
 npm install rainbow-colors
 
+rainbowColor = require('rainbow-colors');
+
 let n=7;
 let config = { 
     lum:0.5,
