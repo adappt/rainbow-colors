@@ -2,7 +2,7 @@
   "compilerOptions": {
     /* Basic Options */
     "target": "es5",
-    "module": "umd",
+    "module": "commonjs",
     "moduleResolution": "Classic"
     /* Specify module code generation: 'commonjs', 'amd', 'system', 'umd' or 'es2015'. */
     // "lib": [],                             /* Specify library files to be included in the compilation:  */

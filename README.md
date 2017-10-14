@@ -8,13 +8,16 @@ usage
 
 npm install rainbow-colors
 
-rainbowColor = require('rainbow-colors');
+rainbowColors = require('rainbow-colors'); 
+// or for angular2 / typescript: import * as rainbowColors from 'rainbow-colors';
 
-let n=7;
+let n=6;
 let config = { 
-    lum:0.5,
-    sat:0.5
+      lum:50,
+      sat:50
     };
-let colorArray = rainbowColor.generate(n,config);
+let colorArray = rainbowColors.generate(n,config);  
+
+// returns ["HSL(0,50%,50%)", "HSL(60,50%,50%)", "HSL(120,50%,50%)", "HSL(180,50%,50%)", "HSL(240,50%,50%)", "HSL(300,50%,50%)"]
 
 

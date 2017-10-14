@@ -1,16 +1,17 @@
-(function (factory) {
-    if (typeof module === "object" && typeof module.exports === "object") {
-        var v = factory(require, exports);
-        if (v !== undefined) module.exports = v;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function generate(num, config) {
+    var _config = config ? config : {
+        lum: 50,
+        sat: 50
+    };
+    var _lum = isNaN(_config.lum) ? 50 : _config.lum;
+    var _sat = isNaN(_config.sat) ? 50 : _config.sat;
+    var _num = isNaN(num) ? 3 : num;
+    var retarr = [];
+    for (var i = 0; i < _num; i++) {
+        retarr.push('HSL(' + 360 * i / _num + ',' + _sat + '%,' + _lum + '%)');
     }
-    else if (typeof define === "function" && define.amd) {
-        define(["require", "exports", "./rainbow-colors"], factory);
-    }
-})(function (require, exports) {
-    "use strict";
-    function __export(m) {
-        for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-    }
-    Object.defineProperty(exports, "__esModule", { value: true });
-    __export(require("./rainbow-colors"));
-});
+    return (retarr);
+}
+exports.generate = generate;
