@@ -20,4 +20,4 @@ let colorArray = rainbowColors.generate(n,config);
 
 // returns ["HSL(0,50%,50%)", "HSL(60,50%,50%)", "HSL(120,50%,50%)", "HSL(180,50%,50%)", "HSL(240,50%,50%)", "HSL(300,50%,50%)"]
 
-
+Module sponsored by AI employee support platform https://knowyourday.ai/
