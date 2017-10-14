@@ -1,4 +1,4 @@
-export class RainbowColor {
+export class RainbowColors {
   public generate(num, config) {
     let _config = config ? config : {
       lum: 50,

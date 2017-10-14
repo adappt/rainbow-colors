@@ -9,10 +9,10 @@
 })(function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    var RainbowColor = (function () {
-        function RainbowColor() {
+    var RainbowColors = (function () {
+        function RainbowColors() {
         }
-        RainbowColor.prototype.generate = function (num, config) {
+        RainbowColors.prototype.generate = function (num, config) {
             var _config = config ? config : {
                 lum: 50,
                 sat: 50
@@ -26,7 +26,7 @@
             }
             return (retarr);
         };
-        return RainbowColor;
+        return RainbowColors;
     }());
-    exports.RainbowColor = RainbowColor;
+    exports.RainbowColors = RainbowColors;
 });
