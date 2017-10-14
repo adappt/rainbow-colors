@@ -1,6 +1,6 @@
 {
   "name": "rainbow-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Evenly spaced non random color generator",
   "main": "index.js",
   "scripts": {
