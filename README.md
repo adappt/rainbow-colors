@@ -1,5 +1,5 @@
 # rainbow-color
-Evenly spaced non random colors.
+Evenly spaced non random color generator
 
 Whilst several very good random color module exists, sometimes they randomly pick colors which are too close, and each time they run they pick a different set of colors.
 Sometimes it is useful to have a predictable set of colors. This module picks n evenly space colors from the color hue wheel.
