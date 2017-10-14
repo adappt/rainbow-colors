@@ -3,7 +3,7 @@
     /* Basic Options */
     "target": "es5",
     "module": "umd",
-    "moduleResolution": "node"
+    "moduleResolution": "Classic"
     /* Specify module code generation: 'commonjs', 'amd', 'system', 'umd' or 'es2015'. */
     // "lib": [],                             /* Specify library files to be included in the compilation:  */
     // "allowJs": true,                       /* Allow javascript files to be compiled. */

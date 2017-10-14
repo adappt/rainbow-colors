@@ -1,1 +1,1 @@
-export * from './rainbow-color';
+export * from './rainbow-colors';
