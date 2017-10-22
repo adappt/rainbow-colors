@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adappt/rainbow-color.git"
+    "url": "git+https://github.com/adappt/rainbow-colors.git"
   },
   "keywords": [
     "color",
@@ -17,7 +17,7 @@
   "author": "Jon Anthony",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adappt/rainbow-color/issues"
+    "url": "https://github.com/adappt/rainbow-colors/issues"
   },
-  "homepage": "https://github.com/adappt/rainbow-color#readme"
+  "homepage": "https://github.com/adappt/rainbow-colors#readme"
 }
