@@ -15,6 +15,7 @@ let n=6;
 let config = { 
       lum:50,
       sat:50
+      rgb:false     // set to true for rgb
     };
 let colorArray = rainbowColors.generate(n,config);  
 
